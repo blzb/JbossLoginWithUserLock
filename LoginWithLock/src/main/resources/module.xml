@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<module xmlns="urn:jboss:module:1.1" name="com.lucasian.login">
+  <resources>
+    <resource-root path="LoginWithLock-1.0.jar"/>
+  </resources>
+
+  <dependencies>
+    <module name="org.picketbox"/>
+    <module name="javax.api"/>
+    <module name="javax.security.jacc.api"/>
+    <module name="javax.servlet.api"/>
+    <module name="javax.transaction.api"/>
+  </dependencies>
+</module>
